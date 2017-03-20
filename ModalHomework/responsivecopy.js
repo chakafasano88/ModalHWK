@@ -1,11 +1,11 @@
 
 var modal = document.getElementById('modal1');
 
-var foo = function(){
+var timer = function(){
   modal.setAttribute("style", "display:block")
 };
 
-setTimeout(foo, 1000);
+setTimeout(timer, 3000);
 
 var butt = document.getElementById("button");
 
